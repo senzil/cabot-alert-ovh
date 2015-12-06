@@ -12,7 +12,7 @@ To interact with the APIS, you will need an OVH account on the appropriate endpo
 - [RunAbove](https://api.runabove.com/createToken/)  
 
 The plugin required only post rights on a specific API endpoint:  
-- POST /sms/*/users/*/jobs
+- POST /sms/\*/users/\*/jobs
 
 OVH allow several validity options (time limit) on the WebUI, choose the appropriate one.  
 
@@ -49,7 +49,8 @@ OVH_SERVICE_NAME="sms-[ovh-nichandle]-1" (*)
 OVH_LOGIN="mycabot" (*)
 OVH_SENDER="mynumber" (*)
 ```
-
+- (\*) created using [OVH Manager](https://www.ovh.com/manager/web/login/) WebUI  
+**NOTE: you may need to switch to the old manager**
 
 Installation
 ----
