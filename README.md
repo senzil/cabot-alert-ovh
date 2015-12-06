@@ -49,7 +49,8 @@ OVH_SERVICE_NAME="sms-[ovh-nichandle]-1" (*)
 OVH_LOGIN="mycabot" (*)
 OVH_SENDER="mynumber" (*)
 ```
-
+- (\*) created using [OVH Manager](https://www.ovh.com/manager/web/login/) WebUI
+**NOTE: you may need to switch to the old manager **
 
 Installation
 ----
