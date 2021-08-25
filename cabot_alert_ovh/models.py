@@ -7,7 +7,7 @@ from django.template import Context, Template
 import logging
 import ovh
 
-from cabot.cabotapp.alert import AlertPlugin, AlertPluginUserData
+from cabot3.cabotapp.alert import AlertPlugin, AlertPluginUserData
 
 sms_template = "Service {{ service.name }} {% if service.overall_status == service.PASSING_STATUS %}is back to normal{% else %}reporting {{ service.overall_status }} status{% endif %}: {{ scheme }}://{{ host }}{% url 'service' pk=service.id %}"
 
